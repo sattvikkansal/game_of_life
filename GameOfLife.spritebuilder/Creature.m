@@ -1,4 +1,4 @@
-//
+ //
 //  Creature.m
 //  GameOfLife
 //
