@@ -23,10 +23,10 @@
 
 - (void)setIsAlive:(BOOL)newState {
     //when you create an @property as we did in the .h, an instance variable with a leading underscore is automatically created for you
-    self.isAlive = newState;
+    _isAlive = newState;
     
     // 'visible' is a property of any class that inherits from CCNode. CCSprite is a subclass of CCNode, and Creature is a subclass of CCSprite, so Creatures have a visible property
-    self.visible = self.isAlive;
+    self.visible = _isAlive;
 }
 
 @end
